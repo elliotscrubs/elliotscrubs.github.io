@@ -136,6 +136,10 @@ li {
     flex-direction: column;
 }
 
+.about h2 { 
+    padding-top: 7rem;
+}
+
 .text {
     color: #777;
 }
