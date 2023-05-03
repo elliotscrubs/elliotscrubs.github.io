@@ -5,6 +5,10 @@ body {
     margin: 1px; 
 }
 
+a { 
+    text-decoration: none;
+}
+
 h2 { 
     font-size: 3rem;
     letter-spacing: 1px;
