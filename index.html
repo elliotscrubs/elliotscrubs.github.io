@@ -4,81 +4,115 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Szabó Ildikó Portfolio</title>
-    <meta name="description" content="Szabó Ildikó's front-end developer portfolio" />
+    <meta
+      name="description"
+      content="Szabó Ildikó's front-end developer portfolio"
+    />
 
     <link rel="stylesheet" href="css/style.css" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
-        <div class="header-content">
-          <div class="header-logo-container">
-            <div class="header-logo">
-              <img
-                src="./assets/jpg/szaboildiko.jpg"
-                alt="Szabó Ildikó logo"
-                class="header-img"
-              />
-            </div>
-            <span class="header-name">Ildikó Szabó</span>
+      <div class="header-content">
+        <div class="header-logo-container">
+          <div class="header-logo">
+            <img
+              src="./assets/jpg/szaboildiko.jpg"
+              alt="Szabó Ildikó logo"
+              class="header-img"
+            />
           </div>
-          <div class="header-main">
-            <ul class="header-links">
-              <li class="wrapper">
-                <a href="./index.html#home" class="header-link"> Home </a>
-              </li>
-              <li class="wrapper">
-                <a href="./index.html#about" class="header-link">About </a>
-              </li>
-              <li class="wrapper">
-                <a href="./index.html#projects" class="header-link">
-                  Projects
-                </a>
-              </li>
-              <li class="wrapper">
-                <a href="./index.html#contact" class="header-link"> Contact </a>
-              </li>
-            </ul>
-          </div>
+          <span class="header-name">Ildikó Szabó</span>
         </div>
-      </header>
-      <div class="flex-content">
-        <div id="home" class="introduction">
-            <img src="./assets/jpg/background.jpg" alt="background"/>
-            <div class="overlay">
-              <h1>Hi everyone!</h1>
-              <div class="greeting">
-                <p>
-                  I'm Ildikó Szabó, junior front-end developer.
-                </p>
-              </div>              
-            </div>
+        <div class="header-main">
+          <ul class="header-links">
+            <li class="wrapper">
+              <a href="./index.html#home" class="header-link"> Home </a>
+            </li>
+            <li class="wrapper">
+              <a href="./index.html#about" class="header-link">About </a>
+            </li>
+            <li class="wrapper">
+              <a href="./index.html#projects" class="header-link"> Projects </a>
+            </li>
+            <li class="wrapper">
+              <a href="./index.html#contact" class="header-link"> Contact </a>
+            </li>
+          </ul>
         </div>
-        <div id="about" class="about">
-            <h2>About Me</h2>
-            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae quod deserunt eius sapiente</p>
-            <div class="about-details">
-              <div class="get-to-know-me">
-                <h3>Get to know me!</h3>
-                <p class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                   Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-              </div>
-              <div class="skills">
-                <h3>Skills</h3>
-                <div class="skill-list">
-                  <p class="skill">HTML</p>
-                  <p class="skill">CSS</p>
-                  <p class="skill">JavaScript</p>
-                  <p class="skill">React</p>
-                </div>
+      </div>
+    </header>
+    <div class="flex-content">
+      <div id="home" class="introduction">
+        <img src="./assets/jpg/background.jpg" alt="background" />
+        <div class="overlay">
+          <h1>Hi everyone!</h1>
+          <div class="greeting">
+            <p>I'm Ildikó Szabó, junior front-end developer.</p>
+            <p>Building interactive, accessible, and responsive websites.</p>
+            <div class="cv" target="_blank"> 
+              <a href="szaboildiko.pdf">My CV</a>
             </div>
           </div>
         </div>
-      </div>    
-    </body>
+      </div>
+      <div id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-details">
+          <div class="get-to-know-me">
+            <h3>Get to know me!</h3>
+            <p class="text">
+              Hi, my name is Ildikó Szabó and I am a junior front-end developer.
+              Recently, I have completed several courses and I feel ready to
+              apply the knowledge I have gained in real projects. My goal is to
+              work in a good team and design and develop responsive,
+              user-friendly websites and applications. I can't wait to work
+              together on exciting projects.
+            </p>
+          </div>
+          <div class="skills">
+            <h3>Skills</h3>
+            <div class="skill-list">
+              <p class="skill">HTML</p>
+              <p class="skill">CSS</p>
+              <p class="skill">JavaScript</p>
+              <p class="skill">React</p>
+              <p class="skill">NodeJs</p>
+              <p class="skill">JSON</p>
+              <p class="skill">GitHub</p>
+              <p class="skill">TypeScript</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="projects-details">
+          <div class="projects-detail">
+            <img
+              src="./assets/png/memory.png"
+              alt="memory-game"
+              class="memory"
+            />
+          </div>
+          <div class="memory-game-details">
+            <h3>Memory Game</h3>
+            <p class="text">
+              My first web development project, a classic memory game using
+              HTML, CSS, JavaScript. Find the animal's pair. If you find them
+              all: You win! 🥳
+            </p>
+            <div class="memory-game-link">
+              <a href="https://elliotscrubs.github.io/memory-game/" target="_blank">Memory Game</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

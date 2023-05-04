@@ -114,8 +114,7 @@ li {
 .overlay {
     position: absolute;
     top: 0;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);   
+    background: rgba(0, 0, 0, 0.5);
     width: 100vw;  
     color: white;
     font-size: 25px;
@@ -127,7 +126,7 @@ li {
     flex-direction: column;
 }
 
-.about { 
+.about, .projects { 
     width: 100vw;
     background: #fafafa;
     display: flex;
@@ -144,14 +143,13 @@ li {
     color: #777;
 }
 
-.about-details { 
+.about-details, .projects-details { 
     flex-direction: row;
     display: flex;
     width: 80vw;
 }
 
-.get-to-know-me, .skills { 
-    width: 50%;
+.get-to-know-me, .skills, .memory-game-details { 
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -173,4 +171,31 @@ li {
     color: #777;
 }
 
+.memory-game-link { 
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    background:  tomato;
+    border-radius: 5px;
+    font-weight: 700;
+}
 
+.cv a { 
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    font-weight: 800;
+    color: tomato; 
+    background-color: lightgoldenrodyellow;
+}
+
+.cv { 
+    padding: 3rem 2rem;   
+}
+
+.memory {
+    width: 90%;
+ }
