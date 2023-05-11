@@ -143,7 +143,7 @@ li {
 }
 
 .about-details,
-.projects-details {
+.projects-details, .second-project {
   flex-direction: row;
   display: flex;
   width: 80vw;
@@ -198,7 +198,7 @@ li {
   padding: 3rem 2rem;
 }
 
-.memory {
+.memory, .english-hungarian-learning {
   width: 90%;
 }
 
