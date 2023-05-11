@@ -151,7 +151,7 @@ li {
 
 .get-to-know-me,
 .skills,
-.memory-game-details {
+.memory-game-details, .eng-hun-details {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -173,7 +173,7 @@ li {
   color: #777;
 }
 
-.memory-game-link {
+.memory-game-link, .eng-hun {
   padding: 1rem 2rem;
   margin-bottom: 1.5rem;
   margin-right: 1.5rem;
