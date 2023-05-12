@@ -135,22 +135,32 @@ li {
   color: #777;
 }
 
-.about-details,
-.projects-details,
-.second-project {
+.projects-details { 
+  display: flex;
+  padding: 10px 10vw;
+}
+
+.projects-detail { 
+  flex-basis: 40%; 
+}
+
+.about-details {
   flex-direction: row;
   display: flex;
   width: 80vw;
   padding: 10px 10px 10px 10px;
 }
 
+.memory-game-details { 
+  flex-basis: 60%;
+}
+
 .get-to-know-me,
-.skills,
-.memory-game-details,
-.eng-hun-details {
+.skills {
   display: flex;
   align-items: center;
   flex-direction: column;
+  width: 100vw;
 }
 
 .skill-list {
@@ -196,12 +206,11 @@ li {
 }
 
 .memory {
-  width: 80%;
+  width: 90%;
   aspect-ratio: auto;
 }
 
 .english-hungarian-learning {
-  width: 90%;
   aspect-ratio: auto;
   margin-top: 20px;
 }
