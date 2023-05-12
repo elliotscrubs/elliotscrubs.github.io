@@ -128,20 +128,20 @@ li {
 }
 
 .about {
-  padding-top: 7rem;
+  padding-top: 5rem;
 }
 
 .text {
   color: #777;
 }
 
-.projects-details { 
+.projects-details {
   display: flex;
   padding: 10px 10vw;
 }
 
-.projects-detail { 
-  flex-basis: 40%; 
+.projects-detail {
+  flex-basis: 40%;
 }
 
 .about-details {
@@ -151,8 +151,10 @@ li {
   padding: 10px 10px 10px 10px;
 }
 
-.memory-game-details { 
-  flex-basis: 60%;
+.memory-game-details {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .get-to-know-me,
@@ -181,8 +183,7 @@ li {
   color: #777;
 }
 
-.memory-game-link,
-.eng-hun-link {
+.memory-game-link {
   padding: 1rem 2rem;
   margin-bottom: 3rem;
   font-size: 1.6rem;
@@ -207,12 +208,7 @@ li {
 
 .memory {
   width: 90%;
-  aspect-ratio: auto;
-}
-
-.english-hungarian-learning {
-  aspect-ratio: auto;
-  margin-top: 20px;
+  border-style: solid;
 }
 
 .socials {
@@ -270,4 +266,3 @@ footer {
   padding: 2px;
   background-color: lightgrey;
 }
-
