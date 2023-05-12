@@ -118,8 +118,7 @@ li {
 }
 
 .about,
-.projects
-.contact {
+.projects .contact {
   width: 100vw;
   background: #fafafa;
   display: flex;
@@ -202,7 +201,9 @@ li {
 }
 
 .english-hungarian-learning {
-  aspect-ratio: 1/1;
+  width: 90%;
+  aspect-ratio: auto;
+  margin-top: 20px;
 }
 
 .socials {
@@ -250,7 +251,6 @@ li {
   color: white;
 }
 
-
 .fa-envelope {
   background-color: orange;
   color: white;
@@ -261,3 +261,4 @@ footer {
   padding: 2px;
   background-color: lightgrey;
 }
+
