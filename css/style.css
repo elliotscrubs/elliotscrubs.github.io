@@ -125,7 +125,8 @@ li {
 }
 
 .about,
-.projects {
+.projects
+.contact {
   width: 100vw;
   background: #fafafa;
   display: flex;
@@ -233,12 +234,12 @@ li {
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
 }
 
@@ -257,9 +258,14 @@ li {
   color: white;
 }
 
-footer { 
-    text-align: center;
-    padding: 3px;
-    background-color: grey;
-    color: white;
+
+.fa-envelope {
+  background-color: orange;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 2px;
+  background-color: lightgrey;
 }
