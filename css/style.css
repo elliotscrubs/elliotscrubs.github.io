@@ -3,6 +3,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0px;
   padding: 0px;
+  width: 100vw;
 }
 
 a {
@@ -17,17 +18,15 @@ h3 {
 }
 
 p {
-  display: block;
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
   max-width: 80rem;
-  line-height: 1.5;
 }
 
 .header {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   z-index: 1000;
   background: #fff;
 }
@@ -89,7 +88,7 @@ li {
 }
 
 .flex-content {
-  width: 100%;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -119,15 +118,10 @@ li {
 .about,
 .projects .contact {
   width: 100vw;
-  background: #fafafa;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-.about {
-  padding-top: 5rem;
 }
 
 .text {
@@ -202,14 +196,18 @@ li {
 }
 
 .cv {
-  padding: 3rem 2rem;
+  padding: 2rem 2rem;
 }
 
-.memory {
+.memory,
+.language {
   width: 90%;
-  border-style: solid;
+  margin-top: 10px;
 }
 
+.language {
+  margin-top: 110px;
+}
 .socials {
   display: flex;
   flex-direction: row;
@@ -223,7 +221,7 @@ li {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .fa:hover {
@@ -266,11 +264,3 @@ footer {
   background-color: lightgrey;
 }
 
-@media only screen and (max-width: 56.25em) {
-  .header-logo {
-    border-radius: 50px;
-    overflow: hidden;
-    margin-right: 1.3rem;
-    width: 7rem;
-  }
-}
