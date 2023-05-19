@@ -22,17 +22,22 @@ button {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 75em) {
+@media only screen and (max-width: 1200px) {
   html {
-    font-size: 59%;
+    font-size: 58%;
   }
 }
-@media only screen and (max-width: 56.25em) {
+@media only screen and (max-width: 900px) {
   html {
     font-size: 56%;
   }
 }
-@media only screen and (min-width: 112.5em) {
+@media only screen and (max-width: 1800px) {
+  html {
+    font-size: 65%;
+  }
+}
+@media only screen and (min-width: 1800px) {
   html {
     font-size: 85%;
   }
@@ -54,8 +59,8 @@ a {
 
 h3 {
   font-weight: 700;
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
+  font-size: 2.8rem;
+  margin-bottom: 3rem;
   text-align: center;
 }
 
@@ -64,6 +69,11 @@ p {
   font-size: 2rem;
   font-weight: 500;
   max-width: 80rem;
+}
+
+.greeting p { 
+  font-weight: 700;
+  font-style: italic;
 }
 
 .header {
@@ -77,20 +87,13 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 5rem;
-}
-
-@media only screen and (max-width: 56.25em) {
-  .header-content {
-    padding: 0 2rem;
-  }
+  padding: 1rem 1.5rem
 }
 
 .header-logo-container {
   display: flex;
   align-items: center;
-  cursor: pointer;
-  color: #333;
+  cursor: pointer;  
   transition: color 0.3s;
 }
 
@@ -110,13 +113,6 @@ p {
   height: 5rem;
 }
 
-@media only screen and (max-width: 56.25em) {
-  .header-logo {
-    width: 4.5rem;
-    height: 4.5rem;
-    margin-right: 1.2rem;
-  }
-}
 
 .header-name {
   font-size: 1.7rem;
@@ -143,7 +139,6 @@ li {
   padding: 2.2rem 3rem;
   display: inline-block;
   font-size: 1.6rem;
-  color: #333;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
@@ -206,9 +201,9 @@ li {
   text-decoration: none;
   padding: 2.5rem 3rem;
   font-size: 1.6rem;
-  color: #333;
   text-align: right;
   border-bottom: 1px solid #eee;
+  color: #333;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -231,14 +226,14 @@ li {
   display: none;
 }
 
-
-
 .flex-content {
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
+  background-position: center;
 }
 
 .introduction img {
@@ -248,10 +243,9 @@ li {
 
 .overlay {
   position: absolute;
-  top: 0;
-  background: rgba(0, 0, 0, 0.5);
+  top: 0; 
   width: 100vw;
-  color: white;
+  color: black;
   font-size: 25px;
   text-align: center;
   height: 100vh;
@@ -260,6 +254,46 @@ li {
   justify-content: center;
   flex-direction: column;
 }
+
+@media only screen and (max-width: 37.5em) {
+  .h3 {
+    font-size: 2.4rem;
+  }
+}
+
+.about-details {
+  flex-direction: row;
+  display: flex;
+  width: 80vw;
+  padding: 10px 10px 10px 10px;
+  max-width: 120rem;
+  margin: auto;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .about-details, .projects-details {
+    flex-direction: column;
+    align-items: center;    
+  }
+  .introduction img {
+    height: 80vh;   
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .text, .greeting {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+  .introduction img {
+    height: 55vh;   
+  }
+  .greeting { 
+    height: 70%;
+    font-size: 1.4rem;
+  }
+}
+
 
 .about,
 .projects .contact {
@@ -274,6 +308,16 @@ li {
   color: #777;
 }
 
+
+
+
+
+
+
+
+
+
+
 .projects-details {
   display: flex;
   padding: 10px 10vw;
@@ -281,15 +325,6 @@ li {
 
 .projects-detail {
   flex-basis: 40%;
-}
-
-.about-details {
-  flex-direction: row;
-  display: flex;
-  width: 80vw;
-  padding: 10px 10px 10px 10px;
-  max-width: 120rem;
-  margin: auto;
 }
 
 .memory-game-details {
@@ -354,8 +389,9 @@ li {
 }
 
 .language {
-  margin-top: 110px;
+  margin-top: 90px;
 }
+
 .socials {
   display: flex;
   flex-direction: row;
