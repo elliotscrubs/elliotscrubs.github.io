@@ -113,7 +113,6 @@ p {
   height: 5rem;
 }
 
-
 .header-name {
   font-size: 1.7rem;
   font-weight: 700;
@@ -308,16 +307,6 @@ li {
   color: #777;
 }
 
-
-
-
-
-
-
-
-
-
-
 .projects-details {
   display: flex;
   padding: 10px 10vw;
@@ -383,12 +372,12 @@ li {
 }
 
 .memory,
-.language {
+.language, .flag {
   width: 90%;
   margin-top: 10px;
 }
 
-.language {
+.language, .flag {
   margin-top: 90px;
 }
 
