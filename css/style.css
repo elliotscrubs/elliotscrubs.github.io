@@ -71,7 +71,7 @@ p {
   max-width: 80rem;
 }
 
-.greeting p { 
+.greeting p {
   font-weight: 700;
   font-style: italic;
 }
@@ -87,13 +87,13 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 1.5rem
+  padding: 1rem 1.5rem;
 }
 
 .header-logo-container {
   display: flex;
   align-items: center;
-  cursor: pointer;  
+  cursor: pointer;
   transition: color 0.3s;
 }
 
@@ -242,7 +242,7 @@ li {
 
 .overlay {
   position: absolute;
-  top: 0; 
+  top: 0;
   width: 100vw;
   color: black;
   font-size: 25px;
@@ -270,29 +270,30 @@ li {
 }
 
 @media only screen and (max-width: 56.25em) {
-  .about-details, .projects-details {
+  .about-details,
+  .projects-details {
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
   }
   .introduction img {
-    height: 80vh;   
+    height: 80vh;
   }
 }
 
 @media only screen and (max-width: 37.5em) {
-  .text, .greeting {
+  .text,
+  .greeting {
     font-size: 2.4rem;
     text-align: center;
   }
   .introduction img {
-    height: 55vh;   
+    height: 55vh;
   }
-  .greeting { 
+  .greeting {
     height: 70%;
     font-size: 1.4rem;
   }
 }
-
 
 .about,
 .projects .contact {
@@ -363,8 +364,8 @@ li {
   font-size: 1.6rem;
   border-radius: 5px;
   font-weight: 800;
-  color: tomato;
-  background-color: lightgoldenrodyellow;
+  color: rgb(22, 21, 21);
+  background-color: rgb(185, 111, 61);
 }
 
 .cv {
@@ -377,7 +378,8 @@ li {
   margin-top: 10px;
 }
 
-.language, .flag {
+.language,
+.flag {
   margin-top: 90px;
 }
 
@@ -397,7 +399,8 @@ li {
   margin: 1rem;
 }
 
-.fa:hover {
+.fa:hover,
+.cv:hover {
   opacity: 0.7;
 }
 
@@ -433,6 +436,18 @@ li {
 
 footer {
   text-align: center;
-  padding: 2px;
+  padding: 1px;
   background-color: lightgrey;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 1rem;
+  }
 }

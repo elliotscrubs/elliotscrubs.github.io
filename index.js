@@ -1,9 +1,7 @@
 const hamMenuBtn = document.querySelector('.header-main-ham-menu-cont')
 const smallMenu = document.querySelector('.header-sm-menu')
 const headerHamMenuBtn = document.querySelector('.header-main-ham-menu')
-const headerHamMenuCloseBtn = document.querySelector(
-  '.header-main-ham-menu-close'
-)
+const headerHamMenuCloseBtn = document.querySelector('.header-main-ham-menu-close')
 const headerSmallMenuLinks = document.querySelectorAll('.header-sm-menu-link')
 
 hamMenuBtn.addEventListener('click', () => {
@@ -29,9 +27,7 @@ for (let i = 0; i < headerSmallMenuLinks.length; i++) {
   })
 }
 
-// ---
 const headerLogoConatiner = document.querySelector('.header-logo-container')
-
 headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
