@@ -316,7 +316,7 @@ li {
   flex-basis: 40%;
 }
 
-.memory-game-details {
+.projects--details {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -348,7 +348,7 @@ li {
   color: #777;
 }
 
-.memory-game-link {
+.projects-link {
   padding: 1rem 2rem;
   margin-bottom: 3rem;
   font-size: 1.6rem;
