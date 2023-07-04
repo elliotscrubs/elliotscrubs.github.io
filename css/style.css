@@ -1,9 +1,5 @@
 *::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-  font-family: inherit;
+*::before {  
 }
 
 input:focus,
@@ -188,12 +184,6 @@ li {
   opacity: 0;
 }
 
-@media only screen and (max-width: 37.5em) {
-  .header-sm-menu--active {
-    visibility: visible;
-    opacity: 1;
-  }
-}
 
 .header-sm-menu-link a {
   display: block;
@@ -254,11 +244,6 @@ li {
   flex-direction: column;
 }
 
-@media only screen and (max-width: 37.5em) {
-  .h3 {
-    font-size: 2.4rem;
-  }
-}
 
 .about-details {
   flex-direction: row;
@@ -283,15 +268,26 @@ li {
 @media only screen and (max-width: 37.5em) {
   .text,
   .greeting {
-    font-size: 2.4rem;
-    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  
   }
   .introduction img {
     height: 55vh;
   }
   .greeting {
-    height: 70%;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+  }
+  .h3 {
+    font-size: 2.4rem;
+  }
+  .overlay {
+    position: relative;
+  }
+  .header-sm-menu--active {
+    visibility: visible;
+    opacity: 1;
   }
 }
 
@@ -328,7 +324,6 @@ li {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 100vw;
 }
 
 .skill-list {
@@ -441,12 +436,10 @@ footer {
 
 @media only screen and (max-width: 56.25em) {
   .fa {
-    padding: 10px;
-    font-size: 20px;
-    width: 20px;
-    text-align: center;
-    text-decoration: none;
+    display: inline-block;
+    align-items: center;
     border-radius: 50%;
     margin: 1rem;
+    justify-content: center;    
   }
 }
