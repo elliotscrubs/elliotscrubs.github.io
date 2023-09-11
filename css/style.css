@@ -307,17 +307,13 @@ li {
 .projects-details {
   display: flex;
   padding: 10px 10vw;
+  align-items: center;
 }
 
 .projects-detail {
-  flex-basis: 40%;
+  flex-basis: 50%;
 }
 
-.projects--details {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
 
 .get-to-know-me,
 .skills {
@@ -350,6 +346,7 @@ li {
   font-size: 1.6rem;
   background: tomato;
   font-weight: 700;
+  width: max-content;
 }
 
 .cv a {
@@ -365,11 +362,10 @@ li {
 
 .cv {
   padding: 2rem 2rem;
-
 }
 
 .memory,
-.language, .flag {
+.language, .flag, .robocards {
   width: 90%;
   margin-top: 10px;
 }
