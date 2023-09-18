@@ -1,5 +1,5 @@
 *::after,
-*::before {  
+*::before {
 }
 
 input:focus,
@@ -33,7 +33,6 @@ button {
     font-size: 65%;
   }
 }
-
 
 body {
   box-sizing: border-box;
@@ -116,7 +115,6 @@ p {
   display: flex;
 }
 
-
 li {
   display: inherit;
 }
@@ -144,7 +142,6 @@ li {
   padding: 2.2rem 0;
 }
 
-
 .header-main-ham-menu {
   width: 100%;
 }
@@ -169,7 +166,6 @@ li {
   visibility: hidden;
   opacity: 0;
 }
-
 
 .header-sm-menu-link a {
   display: block;
@@ -230,7 +226,6 @@ li {
   flex-direction: column;
 }
 
-
 .about-details {
   flex-direction: row;
   display: flex;
@@ -257,7 +252,6 @@ li {
     padding: 10px;
     justify-content: center;
     align-items: center;
-  
   }
   .introduction img {
     height: 55vh;
@@ -281,11 +275,11 @@ li {
   .header-links {
     display: none;
   }
-  .contact { 
-    height: 50vh;    
+  .contact {
+    height: 50vh;
   }
   .projects-detail {
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     display: flex;
   }
@@ -306,14 +300,20 @@ li {
 
 .projects-details {
   display: flex;
+  flex-direction: column;
   padding: 10px 10vw;
   align-items: center;
 }
 
-.projects-detail {
-  flex-basis: 50%;
+.project-details-container {
+  display: flex;
+  padding: 10px 10vw;
+  align-items: center;
 }
 
+.projects-thumbnail-container {
+  flex-basis: 50%;
+}
 
 .get-to-know-me,
 .skills {
@@ -365,7 +365,9 @@ li {
 }
 
 .memory,
-.language, .flag, .robocards {
+.language,
+.flag,
+.robocards {
   width: 90%;
   margin-top: 10px;
 }
@@ -375,7 +377,7 @@ li {
   margin-top: 90px;
 }
 
-.cvandsocials { 
+.cvandsocials {
   justify-content: center;
   align-items: center;
   display: flex;
@@ -433,6 +435,6 @@ footer {
     align-items: center;
     border-radius: 50%;
     margin: 1rem;
-    justify-content: center;    
+    justify-content: center;
   }
 }
