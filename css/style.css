@@ -237,7 +237,7 @@ li {
 
 @media only screen and (max-width: 56.25em) {
   .about-details,
-  .projects-details {
+  .project-details-container {
     flex-direction: column;
     align-items: center;
   }
@@ -278,7 +278,7 @@ li {
   .contact {
     height: 50vh;
   }
-  .projects-detail {
+  .projects-thumbnail-container {
     justify-content: center;
     align-items: center;
     display: flex;
