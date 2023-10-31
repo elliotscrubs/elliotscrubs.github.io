@@ -363,7 +363,7 @@ li {
 .memory,
 .language,
 .flag,
-.robocards {
+.robocards, .pokemon {
   width: 90%;
   margin-top: 10px;
 }
