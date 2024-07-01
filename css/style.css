@@ -1,4 +1,4 @@
-input:focus,
+input:focus, 
 button:focus,
 a:focus,
 textarea:focus {
@@ -432,5 +432,51 @@ footer {
     border-radius: 50%;
     margin: 1rem;
     justify-content: center;
+  }
+} 
+
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.header-logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.header-logo-container {
+  display: flex;
+  align-items: center;
+}
+.header-logo-container .header-name {
+  margin-left: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.cv {
+  margin-right: 10px;
+  font-size: 40px;
+}
+.header-sm-menu {
+  display: none;
+}
+.project-details-container {
+  margin-bottom: 30px;
+}
+.projects-thumbnail-container img {
+  width: 100%;
+  height: auto;
+}
+.socials .fa {
+  margin-right: 10px;
+  font-size: 40px;
+  color: black;
+}
+@media (max-width: 767.98px) {
+  .header-sm-menu {
+    display: block;
+  }
+  .header-main {
+    display: none;
   }
 }
