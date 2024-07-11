@@ -74,7 +74,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 1.5rem;
 }
 
 .header-logo-container {
@@ -93,11 +92,10 @@ p {
 }
 
 .header-logo {
-  border-radius: 50px;
   overflow: hidden;
   margin-right: 1.3rem;
   width: 5rem;
-  height: 5rem;
+  padding-left: 1.5rem;
 }
 
 .header-name {
@@ -382,9 +380,7 @@ li {
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 30px;
   text-align: center;
-  text-decoration: none;
   border-radius: 50%;
   margin: 1rem;
 }
@@ -440,8 +436,8 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 .header-logo img {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
 }
 .header-logo-container {
@@ -469,8 +465,6 @@ body {
 }
 .socials .fa {
   margin-right: 10px;
-  font-size: 40px;
-  color: black;
 }
 @media (max-width: 767.98px) {
   .header-sm-menu {
